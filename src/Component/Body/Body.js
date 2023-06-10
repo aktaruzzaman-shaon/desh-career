@@ -4,7 +4,7 @@ import React from 'react';
 
 const Body = () => {
     return (
-        <div className='container mt-5'>
+        <div className='container my-5'>
             <div className="row">
                 <div className='col-xl-8 col-lg-8 col-md-8 col-sm-12'>
                     <h1 className='text-start'>Get Smarter about your career</h1>
@@ -15,7 +15,7 @@ const Body = () => {
                                 <FontAwesomeIcon icon={faEnvelope} />
                             </div>
                             <input type="text" className="form-control border-0 mx-3" placeholder="Your E-mail address " ></input>
-                            <button className='text-white border-0 text-bg-danger p-2 rounded'>Join Free</button>
+                            <button className='btn text-white border-0 text-bg-danger rounded btn-lg '>Join Free</button>
                         </div>
                     </form>
                     <p className='text-start mt-3'>

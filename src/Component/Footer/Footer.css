@@ -1,0 +1,62 @@
+.footerBrandAbout {
+    color: #8c94b8;
+    margin-top: 10px;
+}
+
+.socialIconStyle {
+    border: 1px solid white;
+    padding: 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 23px;
+    color: white;
+}
+
+.socialIconStyle:hover {
+    color: gray;
+}
+
+.privacy-Style>h4 {
+    color: white;
+    margin-bottom: 35px;
+}
+
+.privacy-Style>a {
+    text-decoration: none;
+    display: block;
+    color: #8c94b8;
+}
+
+.privacy-Style>a:hover {
+    color: white;
+}
+
+.copy-right {
+    color: #d5d5d5;
+    font-size: 15px;
+}
+
+.termCoockieStyle>a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #d5d5d5;
+}
+
+@media all and (max-width:768px) {
+    .termCoockieStyle,.copy-right,.brandImg-alignment {
+        justify-content: center;
+        display: flex;
+
+    }
+}
+@media all and (max-width:768px) {
+   
+    .support-alignment>a,h4{
+        display: block;
+        text-align: center;
+    }
+    .brandImg-alignment{
+        justify-content: center;
+    }
+}
