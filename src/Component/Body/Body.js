@@ -2,6 +2,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
+
 const Body = () => {
     return (
         <div className='container my-5'>
@@ -17,8 +18,8 @@ const Body = () => {
                             <div className="input-group-prepend p-2">
                                 <FontAwesomeIcon icon={faEnvelope} />
                             </div>
-                            <input type="text" className="form-control border-0 mx-3" placeholder="Your E-mail address " ></input>
-                            <button className='btn text-white border-0 text-bg-danger rounded btn-lg '>Join Free</button>
+                            <input type="text" className="form-control border-0 mx-3 " placeholder="Your E-mail address " ></input>
+                            <button className='btn text-white border-0 text-bg-danger rounded btn-lg w-25'>Join Free</button>
                         </div>
                     </form>
 

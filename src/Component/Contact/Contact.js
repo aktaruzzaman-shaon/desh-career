@@ -1,9 +1,11 @@
 import React from 'react';
 import './Contact.css'
+import PageTitle from '../PageTitle/PageTitle';
 
 const Contact = () => {
     return (
         <div>
+            <PageTitle title={"Contact"}></PageTitle>
             <div className="container my-5">
                 <div className="row">
                     <div className="col-xl-8 col-md-8 col-sm-12 contat-style">
