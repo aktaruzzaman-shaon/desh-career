@@ -8,12 +8,14 @@ const Footer = () => {
     return (
         <div style={{ backgroundColor: "#0F0D32" }}>
             <div className="container ">
+
+                {/* Social Media part */}
                 <div className="row">
                     <div className="col-12 mt-5">
-                        <a href=""><FontAwesomeIcon icon={faLinkedinIn} className='socialIconStyle' /></a>
+                        <a href=""><FontAwesomeIcon icon={faLinkedinIn} className='socialIcon-Style' /></a>
                         <a href=""><FontAwesomeIcon icon={faFacebookF}
-                            className='socialIconStyle' /></a>
-                        <a href=""><FontAwesomeIcon icon={faYoutube} className='socialIconStyle' /></a>
+                            className='socialIcon-Style' /></a>
+                        <a href=""><FontAwesomeIcon icon={faYoutube} className='socialIcon-Style' /></a>
                     </div>
                 </div>
 
@@ -23,7 +25,7 @@ const Footer = () => {
                         <div className='text-start ms-4 brandImg-alignment'>
                             <img src={BrandImg} alt="Bootstrap" width="150" height="65" ></img>
                         </div>
-                        <p className='footerBrandAbout'>Desh Career is Career based newsletter in Bengali language. This newsletter has published weekly. This is published in every Saturday at 12.00 PM. </p>
+                        <p className='footerBrand-About'>Desh Career is Career based newsletter in Bengali language. This newsletter has published weekly. This is published in every Saturday at 12.00 PM. </p>
                     </div>
                     <div className='col-xl-4 col-lg-4 col-md-4 col-sm-12 privacy-Style mt-2'>
                         <h4>Privacy And Terms
@@ -40,9 +42,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className='border mb-1' />
+
+                {/* Copy right part */}
                 <div className='row'>
                     <div className='col-sm-12 col-md-6 col-lg-6 copy-right'><p className='text-start'>&copy; 2023 Newsletter Email service: ALL copy reserved</p></div>
-                    <div className='col-sm-12 col-md-6 col-lg-6 termCoockieStyle text-end'>
+                    <div className='col-sm-12 col-md-6 col-lg-6 termCoockie-Style text-end'>
                         <a href="">Terms</a>
                         <a href="">Cookie Policy</a>
                         <a href="">Terms</a>

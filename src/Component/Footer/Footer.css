@@ -1,9 +1,11 @@
-.footerBrandAbout {
+/* Footer brand paragraph stype */
+.footerBrand-About {
     color: #8c94b8;
     margin-top: 10px;
 }
 
-.socialIconStyle {
+/* Social icon style */
+.socialIcon-Style {
     border: 1px solid white;
     padding: 2px;
     margin-left: 10px;
@@ -12,10 +14,11 @@
     color: white;
 }
 
-.socialIconStyle:hover {
+.socialIcon-Style:hover {
     color: gray;
 }
 
+/* Privacy support style */
 .privacy-Style>h4 {
     color: white;
     margin-bottom: 35px;
@@ -31,20 +34,22 @@
     color: white;
 }
 
+/* Copy right part style */
 .copy-right {
     color: #d5d5d5;
     font-size: 15px;
 }
 
-.termCoockieStyle>a {
+.termCoockie-Style>a {
     text-decoration: none;
     margin-left: 15px;
     font-size: 13px;
     color: #d5d5d5;
 }
 
+/* Scree responsive part for copy right and support part */
 @media all and (max-width:768px) {
-    .termCoockieStyle,.copy-right,.brandImg-alignment {
+    .termCoockie-Style,.copy-right,.brandImg-alignment {
         justify-content: center;
         display: flex;
 

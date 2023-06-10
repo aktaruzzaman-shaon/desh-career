@@ -1,0 +1,9 @@
+.navlinks-style{
+    color: black;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.navlinks-style:hover{
+    color: #DC3545;
+}
